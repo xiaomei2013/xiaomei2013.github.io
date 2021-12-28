@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>95Count</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="share-title" content="95Card"><meta name="share-desc" content="95特权demo"><style></style><body><script type="text/javascript">var iphoneUrl="https://itunes.apple.com/us/app/xiao-mei-sheng-huo/id894465362?l=zh&ls=1&mt=8";
+var androidUrl="http://cdn.xiaomei.com/app/xmlife/xmlife_2.5.169.apk";
+var httpUrl="service.xiaomei.com";
+var imageRes="http://res.xiaomei.com/";
+var instRes="http://instimage.xiaomei.com/";
+var shopperAndroidUrl="http://cdn.xiaomei.com/app/xmlife/supershoper_2.4.55.apk";
+var wxConfig = {
+    appId: 'wxdcbe0affffba53e0'
+};
+</script><script src="scripts/9d8c6faf.XMLifeLib.js?v=522"></script><script src="scripts/80c20305.vendor.js?v=522"></script><script>var succ,fail;succ=function(e){var a,t=e.length,u=[];for(a=0;t>a;a++)u.push('<a class="count" href="'),u.push(XMLife.Protocol),u.push(XMLife.URI.count_URI),u.push(e[a].id),u.push('">'),u.push("天数："+e[a].memberCardDay),u.push("售价："+e[a].soldPrice),u.push("节省："+e[a].aquireAmountAdditional),u.push("</a><br/>");for(document.body.innerHTML=u.join(""),a=0;t>a;a++)XMLife.addEvent(document.getElementsByClassName("count")[a],"click",function(e){var a=e.target;window.location.href=a.href})},fail=function(){alert("请求失败！")},$.ajax({url:"http://"+httpUrl+"/biz/rest/chargeRule",type:"GET",dataType:"jsonp",jsonp:"jsoncallback",success:succ,failure:fail});</script>
